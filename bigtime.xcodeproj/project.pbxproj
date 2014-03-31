@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770FB38F1724D3440009C5FA /* OverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 770FB38E1724D3440009C5FA /* OverlayWindow.m */; };
 		7762C8041706795B003527BE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7762C8031706795B003527BE /* Cocoa.framework */; };
 		7762C80E1706795B003527BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7762C80C1706795B003527BE /* InfoPlist.strings */; };
 		7762C8101706795B003527BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7762C80F1706795B003527BE /* main.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		770FB38D1724D3440009C5FA /* OverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayWindow.h; sourceTree = "<group>"; };
+		770FB38E1724D3440009C5FA /* OverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayWindow.m; sourceTree = "<group>"; };
 		7762C8001706795B003527BE /* bigtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bigtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7762C8031706795B003527BE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7762C8061706795B003527BE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -86,6 +89,8 @@
 				7762C8161706795B003527BE /* AppDelegate.m */,
 				7762C8181706795B003527BE /* MainMenu.xib */,
 				7762C80A1706795B003527BE /* Supporting Files */,
+				770FB38D1724D3440009C5FA /* OverlayWindow.h */,
+				770FB38E1724D3440009C5FA /* OverlayWindow.m */,
 			);
 			path = bigtime;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 			files = (
 				7762C8101706795B003527BE /* main.m in Sources */,
 				7762C8171706795B003527BE /* AppDelegate.m in Sources */,
+				770FB38F1724D3440009C5FA /* OverlayWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				7762C81F1706795B003527BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
